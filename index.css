@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
 
+* {
+    box-sizing: border-box;
+}
 html {
     display: flex;
     align-items: center;
@@ -24,7 +27,7 @@ h1 {
 }
 .pseudo_map {
     width: 600px;
-    height: 600px;
+    height: 484px;
     border: 10px solid #0077ff;
     overflow: hidden;
     position: relative;
