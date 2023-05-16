@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+html {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+body {
+    background-color: #89c0ff;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+}
+h1 {
+    font-weight: 500;
+    font-size: 45px;
+    color: #0077ff;
+    margin: 0;
+}
+.pseudo_map {
+    width: 600px;
+    height: 600px;
+    border: 10px solid #0077ff;
+    overflow: hidden;
+    position: relative;
+}
+.pseudo_map img {
+    cursor: move;
+    width: 600px;
+    position: absolute;
+}
+.pseudo_map button {
+    cursor: pointer;
+    position: absolute;
+    border: 2px solid #fff;
+    background-color: #0077ff;
+    color: #fff;
+    font-size: 40px;
+    line-height: 0;    
+    width: 50px;
+    height: 50px;
+    padding: 30px;
+    right: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pseudo_map button:hover {
+    background-color: #3292ff;
+}
+.pseudo_map button:active {
+    background-color: #113e72;
+}
+.pseudo_map button.more {
+    top: 15px;
+}
+.pseudo_map button.less {
+    top: 95px;
+}
+.pseudo_map button.less span {    
+    transform: translateY(-3px);
+}
